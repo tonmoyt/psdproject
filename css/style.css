@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.55);
+    COLOR: #;
+    color: #33417c;
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner h1{
+
+color: #fff;
+
+font-size: 65px;
+
+text-transform: uppercase;
+}
+
+.icon{
+
+position: absolute;
+
+font-size: 27px;
+
+color: white;
+
+left: 50%;
+
+top: 89%;
+transform: translate(-50%,0);
+animation: updown 3s linear infinite;
+-o-animation-direction: alternate;
+}
+@keyframes updown{
+0%{
+top:80%
+
+}
+100%{
+
+top:85%
+
+
+}
+
+}
