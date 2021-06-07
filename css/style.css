@@ -41,19 +41,15 @@ left: 50%;
 
 top: 89%;
 transform: translate(-50%,0);
-animation: updown 3s linear infinite;
--o-animation-direction: alternate;
+animation: updown 1s linear infinite;
+animation-direction: alternate;
 }
-@keyframes updown{
-0%{
-top:80%
+@keyframes updown {
+  0%{
+    top: 80%;
+  }
+  100%{
+    top: 85%;
 
-}
-100%{
-
-top:85%
-
-
-}
-
+  }
 }
